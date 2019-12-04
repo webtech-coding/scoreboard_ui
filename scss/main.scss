@@ -6,3 +6,12 @@
 //Base
 @import "base/reset";
 @import "base/typography";
+
+//components
+@import "components/nav";
+@import "components/header";
+@import "components/scoreboard";
+@import "components/sort";
+
+//layouts
+@import "layout/home";

@@ -1,0 +1,71 @@
+.scoreboard {
+  margin-top: rem(50px);
+  &__lists {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    grid-gap: rem(30px) rem(10px);
+  }
+  &__card {
+    background: #fff;
+    margin-right: 10px;
+    border-radius: rem(2px);
+    padding: rem(5px);
+
+    &-top {
+      display: flex;
+      align-items: center;
+    }
+
+    &-img {
+      width: rem(120px);
+    }
+
+    &-name {
+      font-size: rem(20px);
+      text-transform: capitalize;
+      font-weight: 600;
+    }
+    &-score {
+      text-align: right;
+      padding-right: rem(30px);
+      font-weight: 600;
+      font-size: rem(18px);
+      text-transform: uppercase;
+    }
+
+    &-bottom {
+      display: flex;
+      justify-content: space-between;
+      height: rem(50px);
+      align-items: center;
+      padding: 0 rem(20px);
+    }
+
+    &-edit {
+      background: green;
+      padding: rem(5px);
+      display: none;
+    }
+    &-delete {
+      background: red;
+      padding: rem(5px);
+      display: none;
+    }
+
+    &-icon {
+      width: rem(16px);
+      height: rem(16px);
+      fill: #fff;
+      cursor: pointer;
+    }
+
+    &:hover .scoreboard__card-delete {
+      display: block;
+    }
+
+    &:hover .scoreboard__card-edit {
+      display: block;
+    }
+  }
+}

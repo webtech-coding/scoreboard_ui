@@ -1,0 +1,28 @@
+.sort {
+  position: absolute;
+  right: rem(50px);
+  top: rem(50px);
+
+  &__button {
+    display: flex;
+    align-items: center;
+    background: red;
+    margin-top: rem(20px);
+    padding: rem(20px);
+    color: #fff;
+    cursor: pointer;
+  }
+
+  &__label {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: rem(14px);
+  }
+
+  &__icon {
+    fill: #fff;
+    height: rem(22px);
+    width: 30px;
+    font-weight: 100;
+  }
+}

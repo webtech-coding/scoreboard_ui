@@ -41,9 +41,122 @@ button:active {
   border: 0; }
 
 h1 {
-  font-size: 2.5rem;
-  font-family: "Architects Daughter", cursive; }
+  font-size: 2.25rem;
+  font-family: "Roboto", sans-serif; }
 
 p {
   font-family: "Open Sans", sans-serif;
   font-size: 1rem; }
+
+.nav {
+  width: 5rem;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: #1f1e30;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .nav__item {
+    padding: 1.25rem 0;
+    width: 100%;
+    cursor: pointer;
+    text-align: center; }
+    .nav__item:hover {
+      background: #8665e7; }
+    .nav__item:nth-child(1) {
+      background: red;
+      margin-bottom: 3.125rem; }
+  .nav__icon {
+    fill: #fff;
+    width: 1.875rem;
+    height: 1.875rem;
+    font-weight: 200; }
+
+.header__title {
+  color: #fff;
+  font-weight: 300;
+  text-transform: uppercase; }
+
+.header__sub-title {
+  color: #fff;
+  letter-spacing: 1px; }
+
+.scoreboard {
+  margin-top: 3.125rem; }
+  .scoreboard__lists {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1.875rem 0.625rem; }
+  .scoreboard__card {
+    background: #fff;
+    margin-right: 10px;
+    border-radius: 0.125rem;
+    padding: 0.3125rem; }
+    .scoreboard__card-top {
+      display: flex;
+      align-items: center; }
+    .scoreboard__card-img {
+      width: 7.5rem; }
+    .scoreboard__card-name {
+      font-size: 1.25rem;
+      text-transform: capitalize;
+      font-weight: 600; }
+    .scoreboard__card-score {
+      text-align: right;
+      padding-right: 1.875rem;
+      font-weight: 600;
+      font-size: 1.125rem;
+      text-transform: uppercase; }
+    .scoreboard__card-bottom {
+      display: flex;
+      justify-content: space-between;
+      height: 3.125rem;
+      align-items: center;
+      padding: 0 1.25rem; }
+    .scoreboard__card-edit {
+      background: green;
+      padding: 0.3125rem;
+      display: none; }
+    .scoreboard__card-delete {
+      background: red;
+      padding: 0.3125rem;
+      display: none; }
+    .scoreboard__card-icon {
+      width: 1rem;
+      height: 1rem;
+      fill: #fff;
+      cursor: pointer; }
+    .scoreboard__card:hover .scoreboard__card-delete {
+      display: block; }
+    .scoreboard__card:hover .scoreboard__card-edit {
+      display: block; }
+
+.sort {
+  position: absolute;
+  right: 3.125rem;
+  top: 3.125rem; }
+  .sort__button {
+    display: flex;
+    align-items: center;
+    background: red;
+    margin-top: 1.25rem;
+    padding: 1.25rem;
+    color: #fff;
+    cursor: pointer; }
+  .sort__label {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.875rem; }
+  .sort__icon {
+    fill: #fff;
+    height: 1.375rem;
+    width: 30px;
+    font-weight: 100; }
+
+main {
+  margin-left: 5rem;
+  padding: 50px;
+  background: linear-gradient(to bottom, #2a2b4a, #15151f);
+  min-height: 100vh; }

@@ -10,32 +10,221 @@
   <body>
     <!--Navigation -->
     <nav class="nav">
-      <div class="nav__toggle">
-        <svg>
+      <div class="nav__item">
+        <svg class="nav__icon">
           <use href="resources/icons.svg#icon-soccer"></use>
         </svg>
       </div>
-      <div class="nav__add">Add new</div>
+      <div class="nav__item">
+        <svg class="nav__icon">
+          <use href="resources/icons.svg#icon-home"></use>
+        </svg>
+      </div>
+      <div class="nav__item">
+        <svg class="nav__icon">
+          <use
+            href="resources/icons.svg#icon-add_circle_outlinecontrol_point"
+          ></use>
+        </svg>
+      </div>
     </nav>
     <!--Main section-->
-    <main class="scoreboard">
-      <div class="scoreboard__header">
-        <h1 class="scoreboard__title">ChampionLeague</h1>
-        <div class="scoreboard__logo">this is the logo</div>
+    <main>
+      <header class="header">
+        <h1 class="header__title">ScoreBoard</h1>
+        <p class="header__sub-title">The complete score system</p>
+      </header>
+
+      <div class="sort">
+        <div></div>
+        <button class="sort__button">
+          <svg class="sort__icon">
+            <use href="resources/icons.svg#icon-retweet"></use>
+          </svg>
+          <label class="sort__label">Order by score </label>
+        </button>
       </div>
-      <div class="scoreboard__lists">
-        <div class="scoreboard__card">
-          <div class="scoreboard__card-top">
-            <div class="scoreboard__card-avatar"></div>
-            <div class="scoreboard__card-name">Shovit Thapa</div>
+
+      <section class="scoreboard">
+        <div class="scoreboard__lists">
+          <div class="scoreboard__card">
+            <div class="scoreboard__card-top">
+              <img class="scoreboard__card-img" src="resources/users.png" />
+              <div class="scoreboard__card-info">
+                <div class="scoreboard__card-name">Shovit Thapa</div>
+                <div class="scorecard__card-age">Age : 26</div>
+              </div>
+            </div>
+            <div class="scoreboard__card-score">Score : 20</div>
+            <div class="scoreboard__card-bottom">
+              <div class="scoreboard__card-edit">
+                <svg class="scoreboard__card-icon">
+                  <use href="resources/icons.svg#icon-pencil"></use>
+                </svg>
+              </div>
+              <div class="scoreboard__card-delete">
+                <svg class="scoreboard__card-icon">
+                  <use href="resources/icons.svg#icon-trash"></use>
+                </svg>
+              </div>
+            </div>
           </div>
-          <div class="scoreboard__card-score">Score : 20 goasl</div>
-          <div class="scoreboard__card-bottom">
-            <div class="scoreboard__card-edit">Edit</div>
-            <div class="scorebard__card-delete">Delete</div>
+          <div class="scoreboard__card">
+            <div class="scoreboard__card-top">
+              <img class="scoreboard__card-img" src="resources/users.png" />
+              <div class="scoreboard__card-info">
+                <div class="scoreboard__card-name">Shovit Thapa</div>
+                <div class="scorecard__card-age">Age : 26</div>
+              </div>
+            </div>
+            <div class="scoreboard__card-score">Total Score : 20</div>
+            <div class="scoreboard__card-bottom">
+              <div class="scoreboard__card-edit">
+                <svg class="scoreboard__card-icon">
+                  <use href="resources/icons.svg#icon-pencil"></use>
+                </svg>
+              </div>
+              <div class="scoreboard__card-delete">
+                <svg class="scoreboard__card-icon">
+                  <use href="resources/icons.svg#icon-trash"></use>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="scoreboard__card">
+            <div class="scoreboard__card-top">
+              <img class="scoreboard__card-img" src="resources/users.png" />
+              <div class="scoreboard__card-info">
+                <div class="scoreboard__card-name">Shovit Thapa</div>
+                <div class="scorecard__card-age">Age : 26</div>
+              </div>
+            </div>
+            <div class="scoreboard__card-score">Total Score : 20</div>
+            <div class="scoreboard__card-bottom">
+              <div class="scoreboard__card-edit">
+                <svg class="scoreboard__card-icon">
+                  <use href="resources/icons.svg#icon-pencil"></use>
+                </svg>
+              </div>
+              <div class="scoreboard__card-delete">
+                <svg class="scoreboard__card-icon">
+                  <use href="resources/icons.svg#icon-trash"></use>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="scoreboard__card">
+            <div class="scoreboard__card-top">
+              <img class="scoreboard__card-img" src="resources/users.png" />
+              <div class="scoreboard__card-info">
+                <div class="scoreboard__card-name">Shovit Thapa</div>
+                <div class="scorecard__card-age">Age : 26</div>
+              </div>
+            </div>
+            <div class="scoreboard__card-score">Total Score : 20</div>
+            <div class="scoreboard__card-bottom">
+              <div class="scoreboard__card-edit">
+                <svg class="scoreboard__card-icon">
+                  <use href="resources/icons.svg#icon-pencil"></use>
+                </svg>
+              </div>
+              <div class="scoreboard__card-delete">
+                <svg class="scoreboard__card-icon">
+                  <use href="resources/icons.svg#icon-trash"></use>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="scoreboard__card">
+            <div class="scoreboard__card-top">
+              <img class="scoreboard__card-img" src="resources/users.png" />
+              <div class="scoreboard__card-info">
+                <div class="scoreboard__card-name">Shovit Thapa</div>
+                <div class="scorecard__card-age">Age : 26</div>
+              </div>
+            </div>
+            <div class="scoreboard__card-score">Total Score : 20</div>
+            <div class="scoreboard__card-bottom">
+              <div class="scoreboard__card-edit">
+                <svg class="scoreboard__card-icon">
+                  <use href="resources/icons.svg#icon-pencil"></use>
+                </svg>
+              </div>
+              <div class="scoreboard__card-delete">
+                <svg class="scoreboard__card-icon">
+                  <use href="resources/icons.svg#icon-trash"></use>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="scoreboard__card">
+            <div class="scoreboard__card-top">
+              <img class="scoreboard__card-img" src="resources/users.png" />
+              <div class="scoreboard__card-info">
+                <div class="scoreboard__card-name">Shovit Thapa</div>
+                <div class="scorecard__card-age">Age : 26</div>
+              </div>
+            </div>
+            <div class="scoreboard__card-score">Total Score : 20</div>
+            <div class="scoreboard__card-bottom">
+              <div class="scoreboard__card-edit">
+                <svg class="scoreboard__card-icon">
+                  <use href="resources/icons.svg#icon-pencil"></use>
+                </svg>
+              </div>
+              <div class="scoreboard__card-delete">
+                <svg class="scoreboard__card-icon">
+                  <use href="resources/icons.svg#icon-trash"></use>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="scoreboard__card">
+            <div class="scoreboard__card-top">
+              <img class="scoreboard__card-img" src="resources/users.png" />
+              <div class="scoreboard__card-info">
+                <div class="scoreboard__card-name">Shovit Thapa</div>
+                <div class="scorecard__card-age">Age : 26</div>
+              </div>
+            </div>
+            <div class="scoreboard__card-score">Total Score : 20</div>
+            <div class="scoreboard__card-bottom">
+              <div class="scoreboard__card-edit">
+                <svg class="scoreboard__card-icon">
+                  <use href="resources/icons.svg#icon-pencil"></use>
+                </svg>
+              </div>
+              <div class="scoreboard__card-delete">
+                <svg class="scoreboard__card-icon">
+                  <use href="resources/icons.svg#icon-trash"></use>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="scoreboard__card">
+            <div class="scoreboard__card-top">
+              <img class="scoreboard__card-img" src="resources/users.png" />
+              <div class="scoreboard__card-info">
+                <div class="scoreboard__card-name">Shovit Thapa</div>
+                <div class="scorecard__card-age">Age : 26</div>
+              </div>
+            </div>
+            <div class="scoreboard__card-score">Total Score : 20</div>
+            <div class="scoreboard__card-bottom">
+              <div class="scoreboard__card-edit">
+                <svg class="scoreboard__card-icon">
+                  <use href="resources/icons.svg#icon-pencil"></use>
+                </svg>
+              </div>
+              <div class="scoreboard__card-delete">
+                <svg class="scoreboard__card-icon">
+                  <use href="resources/icons.svg#icon-trash"></use>
+                </svg>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
+      </section>
     </main>
   </body>
 </html>

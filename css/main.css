@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css?family=Baloo+Bhaina:100,400,600|Open+Sans:400,600|Roboto:300,400,500,700|Architects+Daughter&display=swap");
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: inherit;
+  background-repeat: no-repeat; }
+
+body {
+  box-sizing: border-box;
+  width: 100%;
+  overflow-x: hidden;
+  line-height: 1.15; }
+
+a,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+  color: inherit;
+  outline: none;
+  background-color: transparent; }
+
+ul,
+ol {
+  list-style: none;
+  outline: none; }
+
+b,
+strong {
+  font-weight: bolder; }
+
+small {
+  font-size: 80%; }
+
+button,
+button:active {
+  outline: none;
+  border: 0; }
+
+h1 {
+  font-size: 2.5rem;
+  font-family: "Architects Daughter", cursive; }
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem; }

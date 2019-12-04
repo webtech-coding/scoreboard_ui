@@ -5,9 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="css/main.css" />
-    <title>ScoreCard</title>
+    <title>ScoreBoard</title>
   </head>
   <body>
-    this is the idea of the project
+    <!--Navigation -->
+    <nav class="nav">
+      <div class="nav__toggle">
+        <svg>
+          <use href="resources/icons.svg#icon-soccer"></use>
+        </svg>
+      </div>
+      <div class="nav__add">Add new</div>
+    </nav>
+    <!--Main section-->
+    <main class="scoreboard">
+      <div class="scoreboard__header">
+        <h1 class="scoreboard__title">ChampionLeague</h1>
+        <div class="scoreboard__logo">this is the logo</div>
+      </div>
+      <div class="scoreboard__lists">
+        <div class="scoreboard__card">
+          <div class="scoreboard__card-top">
+            <div class="scoreboard__card-avatar"></div>
+            <div class="scoreboard__card-name">Shovit Thapa</div>
+          </div>
+          <div class="scoreboard__card-score">Score : 20 goasl</div>
+          <div class="scoreboard__card-bottom">
+            <div class="scoreboard__card-edit">Edit</div>
+            <div class="scorebard__card-delete">Delete</div>
+          </div>
+        </div>
+      </div>
+    </main>
   </body>
 </html>

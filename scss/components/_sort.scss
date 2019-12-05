@@ -3,6 +3,11 @@
   right: rem(50px);
   top: rem(50px);
 
+  @include max(648px) {
+    top: rem(120px);
+    left: rem(130px);
+  }
+
   &__button {
     display: flex;
     align-items: center;

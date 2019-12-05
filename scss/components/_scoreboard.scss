@@ -1,10 +1,19 @@
 .scoreboard {
   margin-top: rem(50px);
+  @include max(648px) {
+    margin-top: rem(150px);
+  }
   &__lists {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-
     grid-gap: rem(30px) rem(10px);
+
+    @include max(900px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    @include max(648px) {
+      grid-template-columns: repeat(1, 1fr);
+    }
   }
   &__card {
     background: #fff;
@@ -46,6 +55,9 @@
       background: green;
       padding: rem(5px);
       opacity: 0;
+      @include max(900px) {
+        opacity: 1;
+      }
       transition: all 0.8s ease-out;
     }
     &-delete {
@@ -53,6 +65,9 @@
       padding: rem(5px);
 
       opacity: 0;
+      @include max(900px) {
+        opacity: 1;
+      }
       transition: all 0.8s ease-out;
     }
 

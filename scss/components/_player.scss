@@ -1,11 +1,14 @@
 .player {
   margin-top: rem(20px);
   position: relative;
-
   height: rem(500px);
 
   &__form {
-    width: 30%;
+    width: 40%;
+
+    @include max(1200px) {
+      width: 80%;
+    }
     position: absolute;
     top: 50%;
     display: block;

@@ -1,0 +1,49 @@
+.player {
+  margin-top: rem(20px);
+  position: relative;
+
+  height: rem(500px);
+
+  &__form {
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    display: block;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    padding: rem(25px);
+    &-title {
+      text-align: center;
+      text-transform: uppercase;
+      font-size: rem(20px);
+      margin-bottom: rem(20px);
+    }
+    &-label {
+      margin-bottom: rem(4px);
+    }
+    &-input {
+      height: rem(30px);
+      background: #c7c7c7;
+      padding: rem(5px);
+      outline: none;
+      width: 100%;
+      border-radius: rem(4px);
+    }
+    &-group {
+      padding: rem(5px) 0px;
+      &--button {
+        text-align: center;
+        padding: rem(10px) 0;
+      }
+    }
+    &-submit {
+      padding: rem(10px) rem(15px);
+      background: $c-background-dark;
+      color: #fff;
+      border-radius: rem(4px);
+      font-family: $f-secondary;
+      cursor: pointer;
+    }
+  }
+}
